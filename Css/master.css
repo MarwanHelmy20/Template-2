@@ -622,7 +622,7 @@ h1::after {
 .settings-page #Email,
 #First,
 #Last {
-  width: calc(100% - 60px);
+  width: calc(100% - 70px);
 }
 .sec-box:not(:last-child) {
   border-bottom: 1px solid #ddd;
@@ -642,7 +642,7 @@ h1::after {
   align-items: center;
   justify-content: center;
   width: 40px;
-  height: 40.4px;
+  height: 44px;
   border: 1px solid #ddd;
   border-radius: 6px 0 0 6px;
   background-color: #f6f6f6;
