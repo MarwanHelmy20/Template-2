@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/master.css">
+    <link rel="stylesheet" href="./Css/framework.css">
+    <link rel="stylesheet" href="./Css/normalize.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.3.0-web/fontawesome-free-6.3.0-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <title>Profile</title>
+</head>
+
+<body>
+    <!-- Start Sidebar -->
+    <div class="page d-flex">
+        <div class="sidebar bg-white p-20 p-relative">
+            <h3 class="txt-c p-relative mt-0">Marwan Helmy</h3>
+            <ul>
+                <li>
+                    <a class=" d-flex p-10 align-center c-black rad-6 fs-14" href="index.html">
+                        <i class="fa-solid fa-chart-simple fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex p-10 align-center c-black rad-6 fs-14" href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active d-flex p-10 align-center c-black rad-6 fs-14" href="profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex p-10 align-center c-black rad-6 fs-14" href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex p-10 align-center c-black rad-6 fs-14" href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex p-10 align-center c-black rad-6 fs-14" href="friends.html">
+                        <i class="fa-solid fa-user-group fa-fw"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex p-10 align-center c-black rad-6 fs-14" href="files.html">
+                        <i class="fa-solid fa-file fa-fw"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex p-10 align-center c-black rad-6 fs-14" href="plans.html">
+                        <i class="fa-solid fa-calendar-days fa-fw"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- End Sidebar -->
+        <!-- Start Head -->
+        <div class="content w-full">
+            <div class="head bg-white p-15 between-flex">
+                <div class="search p-relative"><input class="p-10 rad-10 border-1px ml-5" type="search"
+                        placeholder="Search..."></div>
+                <div class="icons d-flex align-center">
+                    <span class="notification p-relative">
+                        <i class="fa-regular fa-bell fa-lg"></i>
+                    </span>
+                    <img src="./Images/avatar.png" alt="">
+                </div>
+            </div>
+            <!-- End Head -->
+            <h1 class="p-relative">Profile</h1>
+            <div class="profile-page">
+                <div class="overview bg-white rad-10 d-flex align-center">
+                    <div class="avatar-box txt-c p-20">
+                        <img src="/Images/avatar.png" alt="" class="mb-10 rad-half">
+                        <h3 class="m-0">Marwan</h3>
+                        <p class="c-grey mt-10">Level 24</p>
+                        <div class="level rad-6 bg p-relative">
+                            <span style="width: 70%;"></span>
+                        </div>
+                        <div class="rating mt-10 mb-10">
+                            <i class="fa-solid fa-star c-orange fs-13"></i>
+                            <i class="fa-solid fa-star c-orange fs-13"></i>
+                            <i class="fa-solid fa-star c-orange fs-13"></i>
+                            <i class="fa-solid fa-star c-orange fs-13"></i>
+                            <i class="fa-solid fa-star c-orange fs-13"></i>
+                        </div>
+                        <p class="c-grey m-0 fs-13"> 435 Ratings</p>
+                    </div>
+                    <div class="info-box w-full txt-c-mobile">
+                        <div class="box p-20 d-flex align-center">
+                            <h4 class="c-grey fs-15 m-0 w-full">General Information</h4>
+                            <div class="fs-14">
+                                <span class="c-grey">Full Name:</span>
+                                <span>Marwan Helmy</span>
+                            </div>
+                            <div class="fs-14">
+                                <span class="c-grey">Gender:</span>
+                                <span>Male</span>
+                            </div>
+                            <div class="fs-14">
+                                <span class="c-grey">Country:</span>
+                                <span>Egypt</span>
+                            </div>
+                            <div class="fs-14">
+                                <label>
+                                    <input type="checkbox" class="toggle-checkbox" checked>
+                                    <div class="toggle-switch"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="box p-20 d-flex align-center">
+                            <h4 class="c-grey fs-15 m-0 w-full">Job Information:</h4>
+                            <div class="fs-14">
+                                <span class="c-grey">Title:</span>
+                                <span>Full Stack Devleloper</span>
+                            </div>
+                            <div class="fs-14">
+                                <span class="c-grey">Programming Language:</span>
+                                <span>PHP</span>
+                            </div>
+                            <div class="fs-14">
+                                <span class="c-grey">Years Of Experience:</span>
+                                <span>2+</span>
+                            </div>
+                            <div class="fs-14">
+                                <label>
+                                    <input type="checkbox" class="toggle-checkbox" checked>
+                                    <div class="toggle-switch"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="box p-20 d-flex align-center">
+                            <h4 class="c-grey fs-15 m-0 w-full">Personal Information:</h4>
+                            <div class="fs-14">
+                                <span class="c-grey">Email:</span>
+                                <span>marwan@gmail.com</span>
+                            </div>
+                            <div class="fs-14">
+                                <span class="c-grey">Phone:</span>
+                                <span>01146492243</span>
+                            </div>
+                            <div class="fs-14">
+                                <span class="c-grey">Date Of Birth:</span>
+                                <span>10/1/1999</span>
+                            </div>
+                            <div class="fs-14">
+                                <label>
+                                    <input type="checkbox" class="toggle-checkbox" checked>
+                                    <div class="toggle-switch"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="box p-20 d-flex align-center">
+                            <h4 class="c-grey fs-15 m-0 w-full">Billing Information:</h4>
+                            <div class="fs-14">
+                                <span class="c-grey">Payment Method:</span>
+                                <span>Paypal/VF Cash</span>
+                            </div>
+                            <div class="fs-14">
+                                <span class="c-grey">Email:</span>
+                                <span>email@mail.com</span>
+                            </div>
+                            <div class="fs-14">
+                                <span class="c-grey">Subscription:</span>
+                                <span>Monthly</span>
+                            </div>
+                            <div class="fs-14">
+                                <label>
+                                    <input type="checkbox" class="toggle-checkbox" checked>
+                                    <div class="toggle-switch"></div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="other-data d-flex gap-20">
+                    <div class="skills-card p-20 bg-white rad-10 mt-20">
+                        <h2 class="mt-0 mb-10">My Skills</h2>
+                        <p class="c-grey mt-0 mb-20 c-grey fs-15"> Complete Skills List</p>
+                        <ul class="m-0 txt-c-mobile">
+                            <li>
+                                <span>HTML</span>
+                                <span>PugJs</span>
+                                <span>HAML</span>
+                            </li>
+                            <li>
+                                <span>CSS</span>
+                                <span>Stylus</span>
+                                <span>SASS</span>
+                            </li>
+                            <li>
+                                <span>JavaScript</span>
+                                <span>TypeScript</span>
+                            </li>
+                            <li>
+                                <span>VueJs</span>
+                                <span>ReactJs</span>
+                            </li>
+                            <li>
+                                <span>Jest</span>
+                                <span>Jasmine</span>
+                            </li>
+                            <li>
+                                <span>PHP</span>
+                                <span>Laravel</span>
+
+                            </li>
+                            <li>
+                                <span>Python</span>
+                                <span>Django</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="activities p-20 bg-white rad-10 mt-20">
+                        <h2 class="mt-0 mb-10">Latest Activites</h2>
+                        <p class="c-grey mt-0 mb-20 c-grey fs-15">Latest Activites Done By the User</p>
+                        <div class="activity d-flex align-center txt-c-mobile">
+                            <img src="/Images/activity-01.png" alt="">
+                            <div class="info">
+                                <span class="d-block mb-10">Store</span>
+                                <span class=" c-grey">Bought The Mastering PHP Course</span>
+                            </div>
+                            <div class="date">
+                                <span class="d-block mb-10">21:11</span>
+                                <span class=" c-grey">Yesterday</span>
+                            </div>
+                        </div>
+                        <div class="activity d-flex align-center txt-c-mobile">
+                            <img src="/Images/activity-02.png" alt="">
+                            <div class="info">
+                                <span class="d-block mb-10">Academy</span>
+                                <span class=" c-grey">Got The JavaScript Certificate</span>
+                            </div>
+                            <div class="date">
+                                <span class="d-block mb-10">08:22</span>
+                                <span class=" c-grey">2 Weeks Ago</span>
+                            </div>
+                        </div>
+                        <div class="activity d-flex align-center txt-c-mobile">
+                            <img src="/Images/activity-03.png" alt="">
+                            <div class="info">
+                                <span class="d-block mb-10">Badges</span>
+                                <span class=" c-grey">Unlocked The 10 Skills Badge</span>
+                            </div>
+                            <div class="date">
+                                <span class="d-block mb-10">14:00</span>
+                                <span class=" c-grey">1 Month Ago</span>
+                            </div>
+                        </div>
+                        <div class="activity d-flex align-center txt-c-mobile">
+                            <img src="/Images/activity-01.png" alt="">
+                            <div class="info">
+                                <span class="d-block mb-10">Store</span>
+                                <span class=" c-grey">Bought The Mastering JavaScript Course</span>
+                            </div>
+                            <div class="date">
+                                <span class="d-block mb-10">11:11</span>
+                                <span class=" c-grey">2 Months Ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
